@@ -8,7 +8,8 @@ TEST_SRC = $(shell find $(TEST_SRC_DIR) -maxdepth 1 -name 's21*.c')
 TEST_OBJ := $(TEST_SRC:.c=.o)
 OS := $(shell uname -s)
 
-CFLAGS := -c -Wall -Wextra -Werror -std=c11
+CFLAGS := -c
+# -Wall -Wextra -Werror -std=c11
 GCOV_CFLAGS := -fprofile-arcs -ftest-coverage -fPIC
 
 ifeq ($(OS), Linux)

@@ -1,6 +1,6 @@
 #include "s21_math.h"
 
-// release_cos_v1.0
+//release_cos_v1.0
 long double s21_cos(double x) {
     long double ret = 1.0;
 
@@ -31,8 +31,8 @@ long double s21_cos(double x) {
     return ret;
 }
 
-// my_cos_v0.9
-// long double s21_cos(double x) {
+//my_cos_v0.9
+//long double s21_cos(double x) {
 //    long double ret = 1.0;
 //
 //    for (; (x < -2*S21_PI || 2*S21_PI < x) && !is_inf(x);) {
@@ -59,4 +59,4 @@ long double s21_cos(double x) {
 //    }
 //
 //    return ret;
-// }
+//}
