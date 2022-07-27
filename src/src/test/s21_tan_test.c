@@ -75,10 +75,6 @@ START_TEST(test_17_s21_tan) {
     ck_assert_double_eq_tol(s21_tan(-S21_PI / 2), tan(-S21_PI / 2), 1e-06);
 } END_TEST
 
-START_TEST(test_18_s21_tan) {
-    ck_assert_double_eq_tol(s21_tan(0), tan(0), 1e-06);
-} END_TEST
-
 
 
 Suite * s21_tan_suite(void) {
@@ -104,7 +100,6 @@ Suite * s21_tan_suite(void) {
     tcase_add_test(tc_insert, test_15_s21_tan);
     tcase_add_test(tc_insert, test_16_s21_tan);
     tcase_add_test(tc_insert, test_17_s21_tan);
-    tcase_add_test(tc_insert, test_18_s21_tan);
 
     suite_add_tcase(suite, tc_insert);
 

@@ -120,7 +120,6 @@ Suite * s21_cos_suite(void) {
     tcase_add_test(tc_insert, test_07_s21_cos);
     tcase_add_test(tc_insert, test_08_s21_cos);
     tcase_add_test(tc_insert, test_09_s21_cos);
-    tcase_add_test(tc_insert, test_10_s21_cos);
     tcase_add_test(tc_insert, test_11_s21_cos);
     tcase_add_test(tc_insert, test_12_s21_cos);
     tcase_add_test(tc_insert, test_13_s21_cos);
